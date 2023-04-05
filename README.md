@@ -3,7 +3,7 @@ Programa que hace la funcion de cls en consola en java, como esto no es posible 
 
 Pasos: (Win10)
 Antes que nada:
-*Se debe tener el java instalado, es decir el jdk 1.8.0
+*Se debe tener el java instalado, es decir el jdk 1.8.0 JDKKKKKKK, NO JRE, BUSCA JDK 1.8.0
 *Tener instalado Visual Studio para programar en c
 *Hacer una ruta para utilizar los comandos:
 
@@ -31,7 +31,10 @@ despues se debe crear el programa Consola.c realizado en c
 Despues se va a ir a la consola de visual, en mi caso la x64 ya que tengo pc de x64.
 
 Aqui se debe ejecutar el siguiente comando, se personalizan segun las rutas de tu computadora:
- CI -I"C:\Program Files\Java\jdk1.8.0_60\include" -I"C:\Program Files\Java\jdk1.8.0_60\include\Win32" -LD Consola.c -FeConsola.DLL
+ Cl –I“C:\Program Files\Java\jdk1.8.0_361\include” –I“C:\Program Files\Java\jdk1.8.0_361\include\win32” –LD Consola.c -Feconsola.dll
+ 
+ 
+ (MUCHO OJO DEBE SER c l no ci CL CL CL!!!!)
 
 ya con esto se crearan 3 archivos .dll, .lib y .exp
 
